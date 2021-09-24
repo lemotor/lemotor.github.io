@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="./styles.css">
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+		<title>lemotor</title>
+
+	</head>
+    <body>
+      <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <a href="./index.html" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/>
+                  </svg>
+                  <span class="ml-3 text-5xl uppercase text-red-400">lemotor</span>
+                </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="./index.html" class="text-3xl mr-5 hover:text-gray-900">Domicilio</a>
+            <a href="./privacy.html" class="text-3xl mr-5 hover:text-gray-900">Política de confidencialidad</a>
+            <a href="./contact.html" class="text-3xl mr-5 hover:text-gray-900">Contáctenos</a>
+          </nav>
+        </div>
+      </header>
+      <div class="lg:h-screen -mt-24 lg:pt-24 w-full flex flex-wrap">
+			
+        <div class="h-screen w-full lg:h-full lg:w-1/2 flex justify-center items-center bg-gradient-to-r from-green-500 to-green-700">
+          
+          <div class="max-w-xl px-12 lg:px-32">
+            
+  
+            <h1 class="text-2xl md:text-4xl leading-normal mb-8 font-serif">El mejor blog de la relación.</h1>
+  
+  
+          </div>
+  
+        </div>
+  
+  
+        <div class="h-screen w-full lg:h-full lg:w-1/2 relative">
+          
+          <div class="w-full h-full bg-cover bg-no-repeat bg-center" style="background-image: url('./images/top-bg.jpg');"></div>
+  
+  
+        </div>
+  
+      </div>
+  
+      <form class="p-10 container mx-auto">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">Nombre propio</label>
+            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-green-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="first_name" type="text" placeholder="Jackob">
+            <p class="text-green-500 text-xs italic">Por favor, rellene este campo.</p>
+          </div>
+          <div class="w-full md:w-1/2 px-3">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">Apellido</label>
+            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="last_name" type="text" placeholder="Polans">
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">Dirección de correo electrónico</label>
+            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="********@*****.**">
+          </div>
+        </div>
+          
+          <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">Vuestro mensaje</label>
+            <textarea rows="10" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+              
+            </textarea>
+          </div>
+          <div class="flex justify-between w-full px-3">
+            <div class="md:flex md:items-center">
+              <label class="block text-gray-500 font-bold">
+                <input class="mr-2 leading-tight" type="checkbox">
+                <span class="text-sm">¡Envíame tu boletín!</span>
+              </label>
+            </div>
+            <button class="transition duration-500 shadow bg-green-600 hover:bg-green-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="submit">Enviar tiene el mensaje</button>
+          </div>
+            
+        </div>
+          
+      </form>
+      
+    </div>
+    <div class="border-t border-green-700 mt-10"></div>
+    <footer class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class=" md:text-left text-center -mb-10 -mx-4">
+          <div class="w-full px-4">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Navegación</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a href="./index.html" class="text-gray-600 hover:text-gray-800">Domicilio</a>
+              </li>
+              <li>
+                <a href="./privacy.html" class="text-gray-600 hover:text-gray-800">política de confidencialidad</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="text-gray-600 hover:text-gray-800">Contáctenos</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-green-700">
+        <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+          <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
+            <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+              <label for="footer-field" class="leading-7 text-sm text-gray-600">Correo electrónico</label>
+              <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">S'aber's</button>
+          </div>
+          <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+            <a href="https://facebook.com" class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://twitter.com" class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a href="https://instagram.com" class="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a href="https://linkedin.com" class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="bg-gray-100">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 Reservados todos los derechos
+            <a class="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">lemotor</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
